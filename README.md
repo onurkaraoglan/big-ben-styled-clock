@@ -12,4 +12,4 @@ Open index.html file with your favorite browser.
 
 ## Demo
 
-[Big Ben Styled Clock Demo] (https://onurkaraoglan.github.io/big-ben-styled-clock/)
+[Big Ben Styled Clock Demo](https://onurkaraoglan.github.io/big-ben-styled-clock/)
