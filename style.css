@@ -1,0 +1,62 @@
+
+html {
+    background: url(./img/bigben.png);
+    background-size: cover;
+    background-position: center;
+    font-family: 'helvetica neue';
+    text-align: center;
+    font-size: 10px;
+}
+
+body {
+    margin: 0;
+    font-size: 2rem;
+    display: flex;
+    flex: 1;
+    min-height: 100vh;
+    align-items: center;
+}
+
+.clock {
+    width: 15vw;
+    height: 30vh;
+    max-height: 30rem;
+    max-width: 30rem;
+    min-height: 10rem;
+    min-width: 10rem;
+    margin: auto;
+    position: sticky;
+    padding: 2rem;
+    overflow: auto;
+    /* border: 2px solid black; */
+    border-radius: 50%;
+}
+
+.clock-face {
+    position: relative;
+    width: 100%;
+    height: 100%;
+    transform: translateY(-5px); /* account for the height of the clock hands */
+}
+
+.hand {
+    width: 60%;
+    height: 8px;
+    background: #2d2b2b;
+    position: absolute;
+    top: 50%;
+    transform-origin: 80%;
+    transform: rotate(90deg);
+    transition: all 0.05s;
+    transition-timing-function: cubic-bezier(0.1, 2.7, 0.58, 1);
+    box-shadow: 10px 2px 15px 4px rgba(0, 0, 0, 0.5), inset 0px 0px 4px 1px black;
+}
+
+.second-hand {
+    height: 3px;
+}
+
+.hour-hand {
+    clip: rect(-30px,200px,30px,2vw);
+    z-index: 1;
+}
