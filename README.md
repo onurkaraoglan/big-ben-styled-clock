@@ -9,3 +9,7 @@ A super simple clock made with JavaScript and CSS.
 ## Usage
 
 Open index.html file with your favorite browser.
+
+## Demo
+
+[Big Ben Styled Clock Demo] (https://onurkaraoglan.github.io/big-ben-styled-clock/)
